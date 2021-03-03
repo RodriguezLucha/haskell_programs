@@ -1,6 +1,9 @@
 main = do
-  print (doubleDouble 2)
+  print (myGCD 20 16)
 
-doubleDouble x = (* 2) x * 2
-
--- doubleDouble x = (\x -> x * 2) (x) * 2
+myGCD a b =
+  if remainder == 0
+    then b
+    else myGCD b remainder
+  where
+    remainder = mod a b
