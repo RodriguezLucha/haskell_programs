@@ -1,7 +1,5 @@
 #!/bin/zsh
 
-# Compile
-ghc *.hs 
+# alias autohask="nodemon --delay 2 -e hs -x 'clear && timeout 10s ./run.sh'"
 
-# Run
-./hello
+runhaskell MathSpec.hs

@@ -1,1 +1,6 @@
 stack ./install.hs hls-8.10.4 
+
+cabal install --lib hspec
+cabal install --lib hspec-discover
+
+https://github.com/hspec/hspec-example
