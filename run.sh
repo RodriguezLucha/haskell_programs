@@ -2,4 +2,4 @@
 
 # alias autohask="nodemon --delay 2 -e hs -x 'clear && timeout 10s ./run.sh'"
 
-runhaskell MathSpec.hs
+runhaskell test/ValidParenSpec.hs
