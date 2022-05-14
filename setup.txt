@@ -1,6 +1,8 @@
 stack ./install.hs hls-8.10.4 
 
+brew install ghc cabal-install
+
 cabal install --lib hspec
 cabal install --lib hspec-discover
 
-https://github.com/hspec/hspec-example
+https://github.com/hspec/hspec-examplestac

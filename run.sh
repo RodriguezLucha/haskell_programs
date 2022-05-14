@@ -1,5 +1,5 @@
-#!/bin/zsh
+#!/bin/bash
 
-# alias autohask="nodemon --delay 2 -e hs -x 'clear && timeout 10s ./run.sh'"
+# alias autohask="nodemon --delay 2 -e hs -x 'clear && gtimeout 10s ./run.sh'"
 
-runhaskell test/ValidParenSpec.hs
+runhaskell app/run.hs
